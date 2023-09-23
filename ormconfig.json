@@ -1,0 +1,15 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 7400,
+    "username": "postgres",
+    "password": "dockeralphus123456",
+    "database": "AlphusDaly",
+    "entities": ["src/**/*.entity.ts"],
+    "synchronize": false,
+    "migrationsTableName": "migrations",
+    "migrations": ["src/database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
